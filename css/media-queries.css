@@ -1,0 +1,26 @@
+@media (min-width: 900px) {
+    /* FONTS */
+    body {
+        font-size: 1.3125rem; /* 21px */
+    }
+
+    .blog__title--over,
+    .blog__title--below {
+        font-size: 1.25rem;
+    }
+
+    /* END FONTS */
+
+    .container {
+        width: min(80%, 62.5rem);
+    }
+    
+    .blog__img--flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog__img--flex > * + * {
+        margin-left: 0.5rem;
+    }
+}
