@@ -20,8 +20,8 @@
 
 <body>
 
-    <header>
-        <nav class="nav">
+    <header class="header">
+        <nav class="nav container">
             <ul class="nav__list">
                 <li class="nav__item"><a href="#" class="nav__link">Willkommen</a></li>
                 <li class="nav__item"><a href="#" class="nav__link">Imkerei</a></li>
@@ -34,6 +34,9 @@
 
     <main class="blog">
         <section class="blog__header">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
             <div class="container">
                 <p class="blog__title--over">Bienenzwirbel</p>
                 <h1 class="blog__title">Arbeiten in Aristau</h1>
@@ -132,6 +135,9 @@
             </div>
         </section>
     </main>
+
+    <script src="./js/main.js"></script>
+
 </body>
 
 </html>
